@@ -1,4 +1,4 @@
-local Players=game:GetService('Players')
+--[[local Players=game:GetService('Players')
 local RunS=game:GetService('RunService')
 local StarterGui = game:GetService("StarterGui")
 local UIS=game:GetService('UserInputService')
@@ -41,3 +41,4 @@ UIS.InputBegan:Connect(function(input,ist)
 end)
 
 Plr.CharacterAdded:Connect(SpawnF)
+--]]
